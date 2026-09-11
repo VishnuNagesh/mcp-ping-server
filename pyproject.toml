@@ -1,0 +1,13 @@
+[project]
+name = "mcp-ping-server"
+version = "0.1.0"
+description = "A minimal MCP server with a ping tool."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastmcp>=2.0.0,<3.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
